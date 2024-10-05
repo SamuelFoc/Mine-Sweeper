@@ -1,0 +1,53 @@
+.cell {
+  flex: 1;
+  background-color: rgb(66, 66, 66);
+  border: 1px solid black;
+  cursor: alias;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_back {
+  position: relative;
+  flex: 1;
+  background-color: rgb(66, 66, 66);
+  border: 1px solid black;
+  cursor: alias;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell_back::before {
+  width: 80%;
+  height: 80%;
+  border-radius: 5%;
+  position: absolute;
+  background-color: rgb(95, 94, 94);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "";
+}
+
+.cell_back_flag {
+  position: relative;
+  flex: 1;
+  background-color: rgb(66, 66, 66);
+  border: 1px solid black;
+  cursor: alias;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell_back_flag::before {
+  width: 80%;
+  height: 80%;
+  border-radius: 5%;
+  position: absolute;
+  background-color: rgb(95, 94, 94);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "🚩";
+}

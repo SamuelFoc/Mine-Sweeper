@@ -1,0 +1,13 @@
+.mine {
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  background: rgb(51, 191, 58);
+  background: radial-gradient(
+    circle,
+    rgb(185, 16, 16) 0%,
+    rgba(54, 54, 54, 0.63) 58%,
+    rgba(0, 0, 0, 0.089) 100%
+  );
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.267);
+}
